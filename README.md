@@ -8,7 +8,7 @@ Languages:
 * SQL
 * HTML/CSS/Javascript
 
-*Note that the course was updated from the 2019 to the 2020 version whilst I was tackling pset2 so for this week I have solutions for both syllabi.* 
+
 
 ## Problem Set 0
 **Langauge: Scratch**
@@ -25,9 +25,13 @@ Languages:
 ## Problem Set 2
 **Langauge: C**
 
+*Note that the course was updated from the 2019 to the 2020 version whilst I was tackling pset2 so for this week I have solutions for both syllabi.* 
+
+2019:
 1. [Vigenere](https://lab.cs50.io/cs50/labs/2019/x/vigenere/): Implement Vigenere's cypher.
 2. [Crack](https://lab.cs50.io/cs50/labs/2019/x/crack/): Command line programme that cracks passwords hashed by C's    `<crypt>` function.
 
+2020:
 1. [Readability](https://cs50.harvard.edu/x/2020/psets/2/readability/): Write a programme which determines the approximate reading grade required to understand a text.
 2. [Substitution](https://cs50.harvard.edu/x/2020/psets/2/substitution/): Implement a substitution cypher.
 
