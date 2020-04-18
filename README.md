@@ -29,28 +29,28 @@ Languages:
 
 2019:
 1. [Vigenere](https://lab.cs50.io/cs50/labs/2019/x/vigenere/): Implement Vigenere's cypher.
-2. [Crack](https://lab.cs50.io/cs50/labs/2019/x/crack/): Command line programme that cracks passwords hashed by C's    `<crypt>` function.
+2. [Crack](https://lab.cs50.io/cs50/labs/2019/x/crack/): Command line program that cracks passwords hashed by C's    `<crypt>` function.
 
 2020:
-1. [Readability](https://cs50.harvard.edu/x/2020/psets/2/readability/): Write a programme which determines the approximate reading grade required to understand a text.
+1. [Readability](https://cs50.harvard.edu/x/2020/psets/2/readability/): Write a program which determines the approximate reading grade required to understand a text.
 2. [Substitution](https://cs50.harvard.edu/x/2020/psets/2/substitution/): Implement a substitution cypher.
 
 ## Problem Set 3
 **Langauge: C**
 
-1. [Plurality](https://cs50.harvard.edu/x/2020/psets/3/plurality/): Programme that runs a plurality or 'first-past-the-post' election.
-2. [Tideman](https://cs50.harvard.edu/x/2020/psets/3/tideman/): Programme that runs a Tideman election.
+1. [Plurality](https://cs50.harvard.edu/x/2020/psets/3/plurality/): Program that runs a plurality or 'first-past-the-post' election.
+2. [Tideman](https://cs50.harvard.edu/x/2020/psets/3/tideman/): Program that runs a Tideman election.
 
 ## Problem Set 4
 **Langauge: C**
 
-1. [Filter (more comfortable)](https://cs50.harvard.edu/x/2020/psets/4/filter/more/): Programme that applies filters to BMPs.
-2. [Recover](https://cs50.harvard.edu/x/2020/psets/4/recover/): Write a programme that can recover a JPEG from a forensic image.
+1. [Filter (more comfortable)](https://cs50.harvard.edu/x/2020/psets/4/filter/more/): Program that applies filters to BMPs.
+2. [Recover](https://cs50.harvard.edu/x/2020/psets/4/recover/): Write a program that can recover a JPEG from a forensic image.
 
 ## Problem Set 5
 **Langauge: C**
 
-1. [Speller](https://cs50.harvard.edu/x/2020/psets/5/speller/): Implement a programme that spell checks files using a hash table.
+1. [Speller](https://cs50.harvard.edu/x/2020/psets/5/speller/): Implement a program that spell checks files using a hash table.
 
 ## Problem Set 6
 **Langauge: Python**
@@ -62,13 +62,13 @@ Sentimental (same as pset 1/2 but using Python):
 4. [Readability](https://cs50.harvard.edu/x/2020/psets/6/readability/)
  
 New:
-1. [DNA](https://cs50.harvard.edu/x/2020/psets/6/dna/): Implement a programme that identifies a person based on a csv file representing DNA.  
+1. [DNA](https://cs50.harvard.edu/x/2020/psets/6/dna/): Implement a program that identifies a person based on a csv file representing DNA.  
 
 ## Problem Set 7
 **Langauge: SQL, Python**
 
 1. [Movies](https://cs50.harvard.edu/x/2020/psets/7/movies/): Write SQL queries to answer questions about movies using IMDb.
-2. [Houses](https://cs50.harvard.edu/x/2020/psets/7/houses/): Implement a programme that imports student data into a database and then creates class rosters. 
+2. [Houses](https://cs50.harvard.edu/x/2020/psets/7/houses/): Implement a program that imports student data into a database and then creates class rosters. 
 
 ## Problem Set 8 (Web Track)
 **Langauges: HTML, CSS, Javascript, Python (Flask), SQL**
