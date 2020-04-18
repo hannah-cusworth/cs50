@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block title %}Index{% endblock %}
+{% block main %}
+<table id=table>
+<tr id=top>
+    <th class="heading">Symbol</th>
+    <th class="heading">Name</th>
+    <th class="heading">Shares</th>
+    <th class="heading">Price</th>
+    <th class="heading">TOTAL</th>
+</tr>
+{% for item in index %}
+<tr class=middle>
+    <th>{{item["stock"]}}</th>
+    <th>{{item["name"]}}</th>
+    <th>{{item["shares"]}}</th>
+    <th>${{item["price"]}}</th>
+    <th>${{item["value"]}}</th>
+</tr>
+{% endfor %}
+<tr id="cash">
+    <th>CASH</th>
+    <th> </th>
+    <th> </th>
+    <th></th>
+    <th class="totals">${{cash}}</th>
+</tr>
+<tr id="total">
+    <th> </th>
+    <th></th>
+    <th> </th>
+    <th> </th>
+    <th class="totals">${{total}}</th>
+</tr>
+</table>
+{% endblock %}

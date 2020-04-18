@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block title %}History{% endblock %}
+{% block main %}
+<table id=table>
+<tr id=top>
+    <th class="heading">Symbol</th>
+    <th class="heading">Shares</th>
+    <th class="heading">Price</th>
+    <th class="heading">Time</th>
+</tr>
+{% for item in history %}
+<tr {% if item["shares"] > 0 %} class=buy {% else %} class=sell {% endif %} >
+    <th>{{item["symbol"]}}</th>
+    <th>{{item["shares"] }}</th>
+    <th>${{item["price"]}}</th>
+    <th>{{item["time"]}}</th>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Quoted
+{% endblock %}
+
+{% block main %}
+{% if stock == None %}
+Sorry, invalid symbol.
+{% else %}
+A share of {{stock["name"]}} ({{stock["symbol"]}}) is ${{stock["price"]}}.
+{% endif %}
+<br>
+<a action="/quote">Search Again</a>
+{% endblock %}
